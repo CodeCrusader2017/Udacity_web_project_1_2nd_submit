@@ -1,0 +1,76 @@
+/*The following three IDs below (i.e. nestedgridblog1,2,3) are nested within the .content class, as structured in the HTML */
+#nestedgridblog1 {
+  border: 1px solid black;
+  height: 300px;
+  width: 400px;
+  margin: 1%;  
+  background-image: url("./images/html5image.jpg");  /* Photo by Svilen Milev downloaded from FreeImages.com */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  caption-side:initial;
+}
+
+#nestedgridblog2 {
+  border: 1px solid black;
+  height: 300px;
+  width: 400px;
+  margin: 1%; 
+  background-image: url("./images/cssimage.jpg"); /* Photo by Svilen Milev downloaded from FreeImages.com */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#nestedgridblog3 {
+  border: 1px solid black;
+  height: 300px;
+  width: 400px;
+  margin: 1%; 
+  background-image: url("./images/uniximage.jpg");  /* Photo by Dominik Rusiecki downloaded from FreeImages.com */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#nestedgridblog1 > figcaption {
+  height: 23px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 1px;
+  text-align: center;
+  position: absolute;
+  bottom: 300px;
+  left: 135px;
+  width: 400px;
+  font-size: 15px;
+}
+
+#nestedgridblog2 > figcaption {
+  height: 23px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 1px;
+  text-align: center;
+  position: absolute;
+  bottom: 300px;
+  left: 565px;
+  width: 400px;
+  font-size: 15px;
+}
+
+#nestedgridblog3 > figcaption {
+  height: 23px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 1px;
+  text-align: center;
+  position: absolute;
+  bottom: 300px;
+  left: 995px;
+  width: 400px;
+  font-size: 15px;
+}
